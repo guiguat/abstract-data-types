@@ -15,7 +15,9 @@ City* createCity(float x, float y, char* name) {
     return c;
 }
 
-void freeCityInMemory(City* c) {  }
+void freeCityInMemory(City* c) {
+    free(c);
+}
 
 City getCityCordsAndName(City * c, float* x, float* y, char * name) {  }
 
