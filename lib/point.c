@@ -2,6 +2,7 @@
 #include<stdio.h>
 #include<string.h>
 #include "point.h"
+#include<math.h>
 
 
 City* createCity(float x, float y, char* name) {
@@ -27,5 +28,9 @@ void setCityCoordsAndName(City * c, float x, float y, char name[50]) {
     c->x = x;
 }
 
-float getDistanceBetween(City * c1, City * c2) {  }
+float getDistanceBetween(City * c1, City * c2) {
+    double dx = c2->x - c1->x;
+    double dy = c2->y - c1->y;
+    return (float)sqrt(dx*dx + dy*dy);
+}
 
