@@ -19,9 +19,9 @@ void freeCityInMemory(City* c) {
     free(c);
 }
 
-City getCityCordsAndName(City * c, float* x, float* y, char * name) {  }
+City getCityCoordsAndName(City * c, float* x, float* y, char * name) {  }
 
-void setCityCordsAndName(City * c, float x, float y, char name[50]) {
+void setCityCoordsAndName(City * c, float x, float y, char name[50]) {
     strcpy_s(c->name,50, name);
     c->y = y;
     c->x = x;

@@ -24,15 +24,15 @@ City* createCity(float x, float y, char* name);
 */
 void freeCityInMemory(City* c);
 
-/* Function getCityCordsAndName
+/* Function getCityCoordsAndName
 ** Returns the coordinates and name of a city
 */
-City getCityCordsAndName(City * c, float* x, float* y, char * name);
+City getCityCoordsAndName(City * c, float* x, float* y, char * name);
 
-/* Function setCityCordsAndName
+/* Function setCityCoordsAndName
 ** Sets new values for a city x,y coordinates and name
 */
-void setCityCordsAndName(City * c, float x, float y, char name[50]);
+void setCityCoordsAndName(City * c, float x, float y, char name[50]);
 
 /* Function getDistanceBetween
 ** Return the distance between two cities
