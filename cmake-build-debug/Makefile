@@ -127,32 +127,86 @@ abstract_data_types\fast:
 	$(MAKE) $(MAKESILENT) -f CMakeFiles\abstract_data_types.dir\build.make /nologo -$(MAKEFLAGS) CMakeFiles\abstract_data_types.dir\build
 .PHONY : abstract_data_types\fast
 
-main.obj: main.c.obj
+lib\main.obj: lib\main.c.obj
 
-.PHONY : main.obj
+.PHONY : lib\main.obj
 
 # target to build an object file
-main.c.obj:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles\abstract_data_types.dir\build.make /nologo -$(MAKEFLAGS) CMakeFiles\abstract_data_types.dir\main.c.obj
-.PHONY : main.c.obj
+lib\main.c.obj:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\abstract_data_types.dir\build.make /nologo -$(MAKEFLAGS) CMakeFiles\abstract_data_types.dir\lib\main.c.obj
+.PHONY : lib\main.c.obj
 
-main.i: main.c.i
+lib\main.i: lib\main.c.i
 
-.PHONY : main.i
+.PHONY : lib\main.i
 
 # target to preprocess a source file
-main.c.i:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles\abstract_data_types.dir\build.make /nologo -$(MAKEFLAGS) CMakeFiles\abstract_data_types.dir\main.c.i
-.PHONY : main.c.i
+lib\main.c.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\abstract_data_types.dir\build.make /nologo -$(MAKEFLAGS) CMakeFiles\abstract_data_types.dir\lib\main.c.i
+.PHONY : lib\main.c.i
 
-main.s: main.c.s
+lib\main.s: lib\main.c.s
 
-.PHONY : main.s
+.PHONY : lib\main.s
 
 # target to generate assembly for a file
-main.c.s:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles\abstract_data_types.dir\build.make /nologo -$(MAKEFLAGS) CMakeFiles\abstract_data_types.dir\main.c.s
-.PHONY : main.c.s
+lib\main.c.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\abstract_data_types.dir\build.make /nologo -$(MAKEFLAGS) CMakeFiles\abstract_data_types.dir\lib\main.c.s
+.PHONY : lib\main.c.s
+
+lib\point.obj: lib\point.c.obj
+
+.PHONY : lib\point.obj
+
+# target to build an object file
+lib\point.c.obj:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\abstract_data_types.dir\build.make /nologo -$(MAKEFLAGS) CMakeFiles\abstract_data_types.dir\lib\point.c.obj
+.PHONY : lib\point.c.obj
+
+lib\point.i: lib\point.c.i
+
+.PHONY : lib\point.i
+
+# target to preprocess a source file
+lib\point.c.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\abstract_data_types.dir\build.make /nologo -$(MAKEFLAGS) CMakeFiles\abstract_data_types.dir\lib\point.c.i
+.PHONY : lib\point.c.i
+
+lib\point.s: lib\point.c.s
+
+.PHONY : lib\point.s
+
+# target to generate assembly for a file
+lib\point.c.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\abstract_data_types.dir\build.make /nologo -$(MAKEFLAGS) CMakeFiles\abstract_data_types.dir\lib\point.c.s
+.PHONY : lib\point.c.s
+
+lib\route.obj: lib\route.c.obj
+
+.PHONY : lib\route.obj
+
+# target to build an object file
+lib\route.c.obj:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\abstract_data_types.dir\build.make /nologo -$(MAKEFLAGS) CMakeFiles\abstract_data_types.dir\lib\route.c.obj
+.PHONY : lib\route.c.obj
+
+lib\route.i: lib\route.c.i
+
+.PHONY : lib\route.i
+
+# target to preprocess a source file
+lib\route.c.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\abstract_data_types.dir\build.make /nologo -$(MAKEFLAGS) CMakeFiles\abstract_data_types.dir\lib\route.c.i
+.PHONY : lib\route.c.i
+
+lib\route.s: lib\route.c.s
+
+.PHONY : lib\route.s
+
+# target to generate assembly for a file
+lib\route.c.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\abstract_data_types.dir\build.make /nologo -$(MAKEFLAGS) CMakeFiles\abstract_data_types.dir\lib\route.c.s
+.PHONY : lib\route.c.s
 
 # Help Target
 help:
@@ -163,9 +217,15 @@ help:
 	@echo ... edit_cache
 	@echo ... rebuild_cache
 	@echo ... abstract_data_types
-	@echo ... main.obj
-	@echo ... main.i
-	@echo ... main.s
+	@echo ... lib/main.obj
+	@echo ... lib/main.i
+	@echo ... lib/main.s
+	@echo ... lib/point.obj
+	@echo ... lib/point.i
+	@echo ... lib/point.s
+	@echo ... lib/route.obj
+	@echo ... lib/route.i
+	@echo ... lib/route.s
 .PHONY : help
 
 

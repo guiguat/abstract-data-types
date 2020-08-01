@@ -4,7 +4,9 @@ set(CMAKE_DEPENDS_LANGUAGES
   )
 # The set of files for implicit dependencies of each language:
 set(CMAKE_DEPENDS_CHECK_C
-  "C:/Users/guatu/CLionProjects/abstract-data-types/main.c" "C:/Users/guatu/CLionProjects/abstract-data-types/cmake-build-debug/CMakeFiles/abstract_data_types.dir/main.c.obj"
+  "C:/Users/guatu/CLionProjects/abstract-data-types/lib/main.c" "C:/Users/guatu/CLionProjects/abstract-data-types/cmake-build-debug/CMakeFiles/abstract_data_types.dir/lib/main.c.obj"
+  "C:/Users/guatu/CLionProjects/abstract-data-types/lib/point.c" "C:/Users/guatu/CLionProjects/abstract-data-types/cmake-build-debug/CMakeFiles/abstract_data_types.dir/lib/point.c.obj"
+  "C:/Users/guatu/CLionProjects/abstract-data-types/lib/route.c" "C:/Users/guatu/CLionProjects/abstract-data-types/cmake-build-debug/CMakeFiles/abstract_data_types.dir/lib/route.c.obj"
   )
 set(CMAKE_C_COMPILER_ID "MSVC")
 
