@@ -1,6 +1,5 @@
 #include "route.h"
 #include <stdio.h>
-#include <stdlib.h>
 
 float calculateTotalDistance(City** cities){
     float totalDistance = 0;

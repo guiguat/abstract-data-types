@@ -1,4 +1,3 @@
-#include <stdio.h>
 #include "point.h"
 #include "route.h"
 int main() {
