@@ -4,7 +4,6 @@
 #include "point.h"
 #include<math.h>
 
-
 City* createCity(float x, float y, char* name) {
     City *c = (City*) malloc(sizeof(City));
     if(c == NULL){
@@ -20,7 +19,11 @@ void freeCityInMemory(City* c) {
     free(c);
 }
 
-City getCityCoordsAndName(City * c, float* x, float* y, char * name) {  }
+void getCityCoordsAndName(City * c, float* x, float* y, char * name) {
+    *x = c->x;
+    *y = c->y;
+    strcpy_s((char *) &name, 50, c->name);
+}
 
 void setCityCoordsAndName(City * c, float x, float y, char name[50]) {
     strcpy_s(c->name,50, name);

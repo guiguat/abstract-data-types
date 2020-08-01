@@ -27,7 +27,7 @@ void freeCityInMemory(City* c);
 /* Function getCityCoordsAndName
 ** Returns the coordinates and name of a city
 */
-City getCityCoordsAndName(City * c, float* x, float* y, char * name);
+void getCityCoordsAndName(City * c, float* x, float* y, char * name);
 
 /* Function setCityCoordsAndName
 ** Sets new values for a city x,y coordinates and name
