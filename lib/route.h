@@ -6,6 +6,6 @@
 
 #ifndef ABSTRACT_DATA_TYPES_ROUTE_H
 #define ABSTRACT_DATA_TYPES_ROUTE_H
-float calculateTotalDistance(City cities[6]);
-void printReport(char* c1Name, char* c2Name, float distance);
+float calculateTotalDistance(City* cities[6]);
+void printReport(City* cities[6]);
 #endif //ABSTRACT_DATA_TYPES_ROUTE_H
