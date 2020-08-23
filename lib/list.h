@@ -8,17 +8,17 @@ typedef struct list {
     struct list* next;
 } List;
 
-List*  initialize();
+List*  initializeList();
 
-List*  insert(List* l, City* c);
+List*  insertListItem(List* l, City* c);
 
-int isEmpty(List* l);
+int isEmptyList(List* l);
 
-void printItems(List* l);
+void printListItems(List* l);
 
-List*  findItem(List* l, int v);
+List*  findListItem(List* l, City* c);
 
-List* removeItem(List* l, City* c);
+List* removeListItem(List* l, City* c);
 
 void freeList(List* l);
 
