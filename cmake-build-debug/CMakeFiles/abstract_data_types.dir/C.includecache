@@ -6,15 +6,23 @@
 
 #IncludeRegexTransform: 
 
-C:/Users/guatu/CLionProjects/abstract-data-types/lib/main.c
+C:/Users/guatu/CLionProjects/abstract-data-types/lib/list.h
 point.h
 C:/Users/guatu/CLionProjects/abstract-data-types/lib/point.h
+
+C:/Users/guatu/CLionProjects/abstract-data-types/lib/point.h
+
+C:/Users/guatu/CLionProjects/abstract-data-types/lib/route.c
 route.h
 C:/Users/guatu/CLionProjects/abstract-data-types/lib/route.h
-
-C:/Users/guatu/CLionProjects/abstract-data-types/lib/point.h
+list.h
+C:/Users/guatu/CLionProjects/abstract-data-types/lib/list.h
+stdio.h
+-
 
 C:/Users/guatu/CLionProjects/abstract-data-types/lib/route.h
 point.h
 C:/Users/guatu/CLionProjects/abstract-data-types/lib/point.h
+list.h
+C:/Users/guatu/CLionProjects/abstract-data-types/lib/list.h
 

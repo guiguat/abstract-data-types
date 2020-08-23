@@ -118,11 +118,31 @@ CMakeFiles\abstract_data_types.dir\lib\route.c.s: cmake_force
  /nologo $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) /FoNUL /FAs /FaCMakeFiles\abstract_data_types.dir\lib\route.c.s /c C:\Users\guatu\CLionProjects\abstract-data-types\lib\route.c
 <<
 
+CMakeFiles\abstract_data_types.dir\lib\list.c.obj: CMakeFiles\abstract_data_types.dir\flags.make
+CMakeFiles\abstract_data_types.dir\lib\list.c.obj: ..\lib\list.c
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=C:\Users\guatu\CLionProjects\abstract-data-types\cmake-build-debug\CMakeFiles --progress-num=$(CMAKE_PROGRESS_4) "Building C object CMakeFiles/abstract_data_types.dir/lib/list.c.obj"
+	C:\PROGRA~2\MICROS~2\2019\COMMUN~1\VC\Tools\MSVC\1426~1.288\bin\Hostx86\x86\cl.exe @<<
+ /nologo $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) /FoCMakeFiles\abstract_data_types.dir\lib\list.c.obj /FdCMakeFiles\abstract_data_types.dir\ /FS -c C:\Users\guatu\CLionProjects\abstract-data-types\lib\list.c
+<<
+
+CMakeFiles\abstract_data_types.dir\lib\list.c.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing C source to CMakeFiles/abstract_data_types.dir/lib/list.c.i"
+	C:\PROGRA~2\MICROS~2\2019\COMMUN~1\VC\Tools\MSVC\1426~1.288\bin\Hostx86\x86\cl.exe > CMakeFiles\abstract_data_types.dir\lib\list.c.i @<<
+ /nologo $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E C:\Users\guatu\CLionProjects\abstract-data-types\lib\list.c
+<<
+
+CMakeFiles\abstract_data_types.dir\lib\list.c.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/abstract_data_types.dir/lib/list.c.s"
+	C:\PROGRA~2\MICROS~2\2019\COMMUN~1\VC\Tools\MSVC\1426~1.288\bin\Hostx86\x86\cl.exe @<<
+ /nologo $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) /FoNUL /FAs /FaCMakeFiles\abstract_data_types.dir\lib\list.c.s /c C:\Users\guatu\CLionProjects\abstract-data-types\lib\list.c
+<<
+
 # Object files for target abstract_data_types
 abstract_data_types_OBJECTS = \
 "CMakeFiles\abstract_data_types.dir\lib\main.c.obj" \
 "CMakeFiles\abstract_data_types.dir\lib\point.c.obj" \
-"CMakeFiles\abstract_data_types.dir\lib\route.c.obj"
+"CMakeFiles\abstract_data_types.dir\lib\route.c.obj" \
+"CMakeFiles\abstract_data_types.dir\lib\list.c.obj"
 
 # External object files for target abstract_data_types
 abstract_data_types_EXTERNAL_OBJECTS =
@@ -130,9 +150,10 @@ abstract_data_types_EXTERNAL_OBJECTS =
 abstract_data_types.exe: CMakeFiles\abstract_data_types.dir\lib\main.c.obj
 abstract_data_types.exe: CMakeFiles\abstract_data_types.dir\lib\point.c.obj
 abstract_data_types.exe: CMakeFiles\abstract_data_types.dir\lib\route.c.obj
+abstract_data_types.exe: CMakeFiles\abstract_data_types.dir\lib\list.c.obj
 abstract_data_types.exe: CMakeFiles\abstract_data_types.dir\build.make
 abstract_data_types.exe: CMakeFiles\abstract_data_types.dir\objects1.rsp
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --bold --progress-dir=C:\Users\guatu\CLionProjects\abstract-data-types\cmake-build-debug\CMakeFiles --progress-num=$(CMAKE_PROGRESS_4) "Linking C executable abstract_data_types.exe"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --bold --progress-dir=C:\Users\guatu\CLionProjects\abstract-data-types\cmake-build-debug\CMakeFiles --progress-num=$(CMAKE_PROGRESS_5) "Linking C executable abstract_data_types.exe"
 	C:\Users\guatu\AppData\Local\JetBrains\Toolbox\apps\CLion\ch-0\202.6397.106\bin\cmake\win\bin\cmake.exe -E vs_link_exe --intdir=CMakeFiles\abstract_data_types.dir --rc=C:\PROGRA~2\WI3CF2~1\10\bin\100183~1.0\x86\rc.exe --mt=C:\PROGRA~2\WI3CF2~1\10\bin\100183~1.0\x86\mt.exe --manifests  -- C:\PROGRA~2\MICROS~2\2019\COMMUN~1\VC\Tools\MSVC\1426~1.288\bin\Hostx86\x86\link.exe /nologo @CMakeFiles\abstract_data_types.dir\objects1.rsp @<<
  /out:abstract_data_types.exe /implib:abstract_data_types.lib /pdb:C:\Users\guatu\CLionProjects\abstract-data-types\cmake-build-debug\abstract_data_types.pdb /version:0.0  /machine:X86 /debug /INCREMENTAL /subsystem:console  kernel32.lib user32.lib gdi32.lib winspool.lib shell32.lib ole32.lib oleaut32.lib uuid.lib comdlg32.lib advapi32.lib 
 <<

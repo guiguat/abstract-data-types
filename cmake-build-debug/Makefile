@@ -127,6 +127,33 @@ abstract_data_types\fast:
 	$(MAKE) $(MAKESILENT) -f CMakeFiles\abstract_data_types.dir\build.make /nologo -$(MAKEFLAGS) CMakeFiles\abstract_data_types.dir\build
 .PHONY : abstract_data_types\fast
 
+lib\list.obj: lib\list.c.obj
+
+.PHONY : lib\list.obj
+
+# target to build an object file
+lib\list.c.obj:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\abstract_data_types.dir\build.make /nologo -$(MAKEFLAGS) CMakeFiles\abstract_data_types.dir\lib\list.c.obj
+.PHONY : lib\list.c.obj
+
+lib\list.i: lib\list.c.i
+
+.PHONY : lib\list.i
+
+# target to preprocess a source file
+lib\list.c.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\abstract_data_types.dir\build.make /nologo -$(MAKEFLAGS) CMakeFiles\abstract_data_types.dir\lib\list.c.i
+.PHONY : lib\list.c.i
+
+lib\list.s: lib\list.c.s
+
+.PHONY : lib\list.s
+
+# target to generate assembly for a file
+lib\list.c.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\abstract_data_types.dir\build.make /nologo -$(MAKEFLAGS) CMakeFiles\abstract_data_types.dir\lib\list.c.s
+.PHONY : lib\list.c.s
+
 lib\main.obj: lib\main.c.obj
 
 .PHONY : lib\main.obj
@@ -217,6 +244,9 @@ help:
 	@echo ... edit_cache
 	@echo ... rebuild_cache
 	@echo ... abstract_data_types
+	@echo ... lib/list.obj
+	@echo ... lib/list.i
+	@echo ... lib/list.s
 	@echo ... lib/main.obj
 	@echo ... lib/main.i
 	@echo ... lib/main.s

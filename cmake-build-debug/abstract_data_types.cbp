@@ -84,6 +84,9 @@
 				</MakeCommands>
 			</Target>
 		</Build>
+		<Unit filename="C:/Users/guatu/CLionProjects/abstract-data-types/lib/list.c">
+			<Option target="abstract_data_types"/>
+		</Unit>
 		<Unit filename="C:/Users/guatu/CLionProjects/abstract-data-types/lib/list.h">
 			<Option target="abstract_data_types"/>
 		</Unit>

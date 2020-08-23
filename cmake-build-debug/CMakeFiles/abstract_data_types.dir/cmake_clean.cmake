@@ -1,4 +1,5 @@
 file(REMOVE_RECURSE
+  "CMakeFiles/abstract_data_types.dir/lib/list.c.obj"
   "CMakeFiles/abstract_data_types.dir/lib/main.c.obj"
   "CMakeFiles/abstract_data_types.dir/lib/point.c.obj"
   "CMakeFiles/abstract_data_types.dir/lib/route.c.obj"
