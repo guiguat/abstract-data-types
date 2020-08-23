@@ -2,9 +2,10 @@
 // Created by Guilherme Guatura on 31/07/2020.
 //
 #include "point.h"
+#include "list.h"
 
 #ifndef ABSTRACT_DATA_TYPES_ROUTE_H
 #define ABSTRACT_DATA_TYPES_ROUTE_H
-float calculateTotalDistance(City* cities[6]);
-void printReport(City* cities[6]);
+float calculateTotalDistance(List* cities);
+void printReport(List* cities);
 #endif //ABSTRACT_DATA_TYPES_ROUTE_H

@@ -1,17 +1,25 @@
 #include "route.h"
+#include "list.h"
 #include <stdio.h>
 
-float calculateTotalDistance(City** cities){
+float calculateTotalDistance(List* cities){
     float totalDistance = 0;
-    for (int i=0; i<5; i++){
-        totalDistance += getDistanceBetween(cities[i], cities[i+1]);
+    List* p;
+    for (p=cities; p != NULL && p->next != NULL ; p=p->next){
+        totalDistance += getDistanceBetween(p->data, p->next->data);
     }
+    totalDistance += getDistanceBetween(cities->data, p->data);
     return totalDistance;
 }
-void printReport(City* cities[6]){
-    printf("Origin    Destiny    Distance(km)\n");
-    for (int i=0; i<5; i++){
-        printf("%s    %s    %5.2f\n", cities[i]->name, cities[i+1]->name, getDistanceBetween(cities[i], cities[i+1]));
+void printReport(List* cities){
+    List* p = cities;
+    while(!isEmptyList(p) && !isEmptyList(p->next)){
+        printf(
+        "Origin: %s Destiny: %s Distance: %5.2f\n",
+        p->data->name, p->next->data->name,
+        getDistanceBetween(p->data, p->next->data));
+        p = p->next;
     }
     printf("Total distance: %5.2f", calculateTotalDistance(cities));
+    freeList(cities);
 }
