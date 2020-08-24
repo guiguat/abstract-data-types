@@ -1,7 +1,7 @@
 #ifndef ABSTRACT_DATA_TYPES_LIST_H
 #define ABSTRACT_DATA_TYPES_LIST_H
 
-#include "point.h"
+#include "city.h"
 
 typedef struct list {
     City*  data;

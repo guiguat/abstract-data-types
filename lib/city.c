@@ -1,7 +1,7 @@
 #include<stdlib.h>
 #include<stdio.h>
 #include<string.h>
-#include "point.h"
+#include "city.h"
 #include<math.h>
 
 City* createCity(float x, float y, char* name) {
